@@ -1,12 +1,64 @@
 int state;
+PImage bg;
+
 void setup() {
-  size(500, 500);
-  background(0,168,165);
+  size(1000, 642);
   state = 0;
+  bg = loadImage("bamboo.png");
+   background(bg);
 }
 
 void draw() {
+   //body
+   fill(0);
+   noStroke();
+   ellipse(250,450,280,250);
+   
+   //armleft
+   pushMatrix();
+   translate(139,395);
+   fill(0);
+   noStroke();
+   rotate(-5.2);
+   ellipse(0,0,85,160);
+   popMatrix();
+   
+   //armright
+   pushMatrix();
+   translate(361,395);
+   fill(0);
+   noStroke();
+   rotate(5.2);
+   ellipse(0,0,85,160);
+   popMatrix();
+   
+   //tummy
+   fill(255);
+   noStroke();
+   ellipse(250,450,220,200);
+   
+   //footright
+   fill(0);
+   noStroke();
+   ellipse(300,550,100,100);
  
+   
+   //footleft
+   fill(0);
+   noStroke();
+   ellipse(195,550,100,100);
+
+   
+   //footpadleft
+   fill(240,127,155);
+   noStroke();
+   ellipse(195,570,50,40);
+   
+   //footpadright
+   fill(240,127,155);
+   noStroke();
+   ellipse(300,570,50,40);
+      
   //left ear
    fill(0);
    stroke(2);
@@ -19,10 +71,15 @@ void draw() {
   noStroke();
   ellipse(250,250,200,200);
   
-   //eye
+    //eyewrap
    fill(0);
-   ellipse(295,250,15,15);
-   ellipse(205,250,15,15);
+   ellipse(295,250,33,40);
+   ellipse(205,250,33,40);
+   
+   //eye
+   fill(255);
+   ellipse(295,250,5,5);
+   ellipse(205,250,5,5);
    
    //nose
    fill(240,127,155);
@@ -34,7 +91,7 @@ void draw() {
    
    arc(262, 295, 30, 27, 0, PI);
    arc(230, 295, 30, 27, 0, PI);
-
+   
 
   if (state == 0) {
     println("It's feeding time. Do you:");
