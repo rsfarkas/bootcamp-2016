@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Porfolio Page</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<link href='https://fonts.googleapis.com/css?family=Jura' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.3.2/css/simple-line-icons.css">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.js"></script>
+</head>
+<body>
+	<header>
+		<section id="home" class="module-image">
+			<div id ="lines">
+				<div class="line1 fade-in one"></div>
+				<div class="line2 fade-in two"></div>
+				<div class="line3 fade-in three"></div>
+				<div class="line4 fade-in four"></div>
+				<div class="line5 fade-in five"></div>
+			</div> <!--lines div -->
+			<nav class="navbar navbar-custom" role="navigation">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#custom-collapse">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+					</div><!--navbar-header-->
+					<div class="collapse navbar-collapse" id="custom-collapse">
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="#about">About</a></li>
+							<li><a href="#works">Works</a></li>
+							<li><a href="#contact">Contact</a></li>
+						</ul>
+					</div>
+				</div><!-- .container -->
+			</nav> <!--nav-->
+
+			<div class="intro" id="title">
+				<h1 id="name" onclick='jobDes()'>Roxy Farkas</h1>
+			</div>	<!--roxy intro section-->
+		</section> <!--home section-->
+	</header> <!--header-->
+
+	<hr>
+	<main class="mt40">
+		<div class=" mb86 container-fluid">
+			<div class="row">
+				<div class="col-sm-4">
+					<div id="headshot">
+						<img id="headshot" class="img-responsive vignette" src="img/roxheadshot.jpg">
+					</div><!--headshot-->
+				</div>
+
+				<div id="about" class="col-sm-8">
+					<p class="tac mb40 mt10" id="native">A Chicago native living in New York City. Inspired by the intersection between design and technology. Addicted to coffee.</p>
+					<div class="row">
+						<div class="col-sm-6">
+							<div class="squareleft">
+								<div class="squareleft-icon">
+									<span class="icon-graduation"></span>
+								</div>
+								<div class="squareleft-text">
+									<h3 class="squareleft-title">Education</h3>
+									<div class="squareleft-desc">
+										Fashion Institute of Design and Merchandising - A.A. <br>
+										Fordham University Lincoln Center-B.A.<br>
+										Parsons School of Design - M.F.A. Candidate 2016
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6">
+							<div class="squareleft">
+								<div class="squareleft-icon">
+									<span class="icon-picture"></span>
+								</div>
+								<div class="squareleft-text">
+									<h3 class="squareleft-title">Design</h3>
+									<div class="squareleft-desc">
+										My background in design allows me to approach the creative process in a unique way, with beautiful designs created to provide the optimal user experience.
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-6">
+							<div class="squareleft">
+								<div class="squareleft-icon">
+									<span class="icon-screen-desktop"></span>
+								</div>
+								<div class="squareleft-text">
+									<h3 class="squareleft-title">Resume</h3>
+									<div class="squareleft-desc">
+										I most recently worked as a Frontend-developer at <a href="https://www.boomset.com/"> Boomset </a>.
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-sm-6">
+							<div class="squareleft">
+								<div class="squareleft-icon">
+									<span class="icon-wrench"></span>
+								</div>
+								<div class="squareleft-text">
+									<h3 class="squareleft-title">Skills</h3>
+									<div class="squareleft-desc">
+										Currently working with HTML, CSS, JS, Python, and Processing.
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div> <!--about -->
+			</div> <!--row-->
+		</div> <!--containerfluid-->
+
+		<hr>
+		<!-- Page Content -->
+		<div id="works" class="mt120 mb50">
+			<div class="container mt30 mt50" id="row">
+				<div class="row">
+					<div class="col-lg-4 col-md-4 col-sm-4 thumb">
+						<div class="hovereffect thumbnail">
+							<img class="img-responsive" src="img/allentownauto.png" alt="">
+							<div class="overlay">
+								<a class="info" href="http://www.allentownautoelectric.com/">AAE</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-4 col-md-4 col-sm-4 thumb">
+						<div class="hovereffect thumbnail">
+							<img class="img-responsive" src="img/boomset.png" alt="">
+							<div class="overlay">
+								<a class="info" href="https:www.boomset.com/">Boomset</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-4 col-md-4 col-sm-4 thumb">
+						<div class="hovereffect thumbnail">
+							<img class="img-responsive" src="img/roxannefarkas.png" alt="">
+							<div class="overlay">
+								<a class="info" href="http://roxannefarkas.com">Porfolio Page</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="container" id="row">
+				<div class="row">
+					<div class="col-lg-4 col-md-4 col-sm-4 thumb">
+						<div class="hovereffect thumbnail">
+							<img class="img-responsive" src="img/bridal.png" alt="">
+							<div class="overlay">
+								<a class="info" href="#">Bridal Designs</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-4 col-md-4 col-sm-4 thumb">
+						<div class="hovereffect thumbnail">
+							<img class="img-responsive" src="img/runway.png" alt="">
+							<div class="overlay">
+								<a class="info" href="#">Runway Collections</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-4 col-md-4 col-sm-4 thumb">
+						<div class="hovereffect thumbnail">
+							<img class="img-responsive" src="img/dress.png" alt="">
+							<div class="overlay">
+								<a class="info" href="#">Formal Wear</a>
+							</div>
+						</div>
+					</div>
+
+
+				</div><!--row-->
+			</div><!--container-->
+		</div><!--works-->
+	</main>
+	<footer>
+		<section id="contact">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-4">
+						<ul class="social-links tac">
+							<li><a href="https://www.facebook.com/roxanne.farkas.3"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="https://twitter.com/roxyfarkas"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="https://plus.google.com/u/0/101049654659833462124/about/p/pub"><i class="fa fa-google-plus"></i></a></li>
+							<li><a href="https://www.linkedin.com/in/farkasroxanne"><i class="fa fa-linkedin"></i></a></li>
+						</ul>
+					</div>	
+					<div class="col-md-4">
+						<p class="mt10 tac">&copy; Roxanne Farkas, 2016.</p>
+					</div>
+					<div class="col-md-4">
+						<p class="mt10 tac"><a href="mailto:roxannesfarkas@gmail.com?Subject=Hello!%20Porfolio%20Inquiry"> roxannesfarkas@gmail.com</a></p>
+					</div>
+				</div>	
+			</div>
+		</section>
+	</footer>
+	<script src="main.js"></script>
+</body>
+</html>
