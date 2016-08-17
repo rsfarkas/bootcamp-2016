@@ -1,7 +1,6 @@
 /*-------------
- 	General
--------------*/
-
+	General
+	-------------*/
 *{
 	margin: 0;
 	padding: 0;
@@ -54,14 +53,12 @@ hr{
 h1{
 	color:white;
 	z-index:1;
-
 }
 
 section{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-
 	padding: 100px 100px;
 }
 
@@ -74,7 +71,6 @@ p{
 	section{
 		padding: 100px 50px;
 	}
-
 }
 
 @media (max-width: 600px){
@@ -82,7 +78,6 @@ p{
 	section{
 		padding: 80px 30px;
 	}
-
 }
 
 section h3.title{
@@ -107,32 +102,31 @@ ul.grid{
 	flex-wrap: wrap;
 	justify-content: center;
 }
-/*-----
+
+/*----------
 Icons
------*/
+----------*/
 .material-icons {
-  font-family: 'Material Icons';
-  font-weight: normal;
-  font-style: normal;
-  font-size: 24px;  /* Preferred icon size */
-  display: inline-block;
-  line-height: 1;
-  text-transform: none;
-  letter-spacing: normal;
-  word-wrap: normal;
-  white-space: nowrap;
-  direction: ltr;
+	font-family: 'Material Icons';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 24px;  /* Preferred icon size */
+	display: inline-block;
+	line-height: 1;
+	text-transform: none;
+	letter-spacing: normal;
+	word-wrap: normal;
+	white-space: nowrap;
+	direction: ltr;
 
-  /* Support for all WebKit browsers. */
-  -webkit-font-smoothing: antialiased;
-  /* Support for Safari and Chrome. */
-  text-rendering: optimizeLegibility;
-
-  /* Support for Firefox. */
-  -moz-osx-font-smoothing: grayscale;
-
-  /* Support for IE. */
-  font-feature-settings: 'liga';
+	/* Support for all WebKit browsers. */
+	-webkit-font-smoothing: antialiased;
+	/* Support for Safari and Chrome. */
+	text-rendering: optimizeLegibility;
+	/* Support for Firefox. */
+	-moz-osx-font-smoothing: grayscale;
+	/* Support for IE. */
+	font-feature-settings: 'liga';
 }
 
 #green{
@@ -143,9 +137,9 @@ Icons
 	color:pink;
 }
 
-/*-------------
- 	Header
--------------*/
+/*-------------------
+	Header / Nav
+--------------------*/
 
 header{
 	position: absolute;
@@ -213,10 +207,10 @@ header h2{
 
 @media(max-width:500px){
 	.nav li:first-child {
-    	margin-left: 7%; 
+		margin-left: 7%; 
 	}
-
 }
+
 /*-----
 Photos
 ---------------*/
@@ -237,8 +231,8 @@ Photos
 	}
 }
 /*----------------
- 	Hero Section
-----------------*/
+	Hero Section
+------------------*/
 
 .hero{
 	position: relative;
@@ -247,27 +241,25 @@ Photos
 	text-align: center;
 	height:100vh;
 	width:auto;
-	    z-index: 1;
-    background-color: white;
-    background-repeat: no-repeat;
+	z-index: 1;
+	background-color: white;
+	background-repeat: no-repeat;
 }
 
 .hero .background-video{
 	position: absolute;
-    z-index: 0;
-    background-size: 100% 100%;
-    top: 0px;
-    left: 0px;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    opacity:.7;
-    background-color: white;
-    z-index: 2;
+	z-index: 0;
+	background-size: 100% 100%;
+	top: 0px;
+	left: 0px;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	opacity:.7;
+	background-color: white;
+	z-index: 2;
 }
-
-
 
 .hero h1{
 	font: bold 60px 'Dosis', sans-serif;
@@ -303,7 +295,6 @@ Photos
 	.hero a.btn{
 		padding: 15px 40px;
 	}
-
 }
 
 #nonein4{
@@ -319,36 +310,34 @@ Photos
 	color:#f4e21a;
 	text-shadow:2px 2px rgba(226, 209, 25, 0.98);
 	z-index:3;
-
 }
 
 
 /*--------------------
- 	Features
+	Down Arrow
 ---------------------*/
 
-
 #arrow{
-   display: inline-block;
-  vertical-align: middle;
-   text-align: center;
-    z-index: 2;
-  margin: 6em 0 0 0;
-  padding: 0;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	z-index: 2;
+	margin: 6em 0 0 0;
+	padding: 0;
 }
 
 #arrow a {
-  display: inline-block;
-  border-radius: 50%;
+	display: inline-block;
+	border-radius: 50%;
 }
 
 #arrow a:hover .bottom{
-  border: 0.5em solid #5999e4;
+	border: 0.5em solid #5999e4;
 }
 
 #arrow a:hover .bottom:after {
-  border-top: 0.5em solid #5999e4;
-  border-right: 0.5em solid #5999e4;
+	border-top: 0.5em solid #5999e4;
+	border-right: 0.5em solid #5999e4;
 }
 
 .bottom:after:hover{
@@ -361,30 +350,30 @@ Photos
 
 
 .bottom {
-  display: inline-block;
-  width: 4em;
-  height: 4em;
-  border: 0.5em solid #f4e21a ;
-  border-radius: 50%;
-  margin-left: 0.75em;
+	display: inline-block;
+	width: 4em;
+	height: 4em;
+	border: 0.5em solid #f4e21a ;
+	border-radius: 50%;
+	margin-left: 0.75em;
 }
 
 .bottom:after {
-     content: '';
-    display: inline-flex;
-    margin-top: 0.4em;
-    width: 1.2em;
-    height: 1.2em;
-    border-top: 0.5em solid #f4e21a;
-    border-right: 0.5em solid #f4e21a ;
-    -moz-transform: rotate(135deg);
-    -webkit-transform: rotate(135deg);
-    transform: rotate(135deg);
+	content: '';
+	display: inline-flex;
+	margin-top: 0.4em;
+	width: 1.2em;
+	height: 1.2em;
+	border-top: 0.5em solid #f4e21a;
+	border-right: 0.5em solid #f4e21a ;
+	-moz-transform: rotate(135deg);
+	-webkit-transform: rotate(135deg);
+	transform: rotate(135deg);
 }
 
 
 /*--------------------
- 	About
+	About
 ---------------------*/
 .about{
 	background-color: #f7f7f7;
@@ -393,9 +382,8 @@ Photos
 	font-size:18px;
 }
 
-
 /*--------------------
- 	Features
+	Features
 ---------------------*/
 
 .features{
@@ -406,7 +394,6 @@ Photos
 	padding: 20px;
 	height: 350px;
 	border-radius: 3px;
-
 	background-clip: content-box;
 	background-size: cover;
 	background-position: center;
@@ -427,7 +414,6 @@ Photos
 	.features .grid li.large{
 		flex-basis: 100%;
 	}
-
 }
 
 #product2{
@@ -435,7 +421,7 @@ Photos
 }
 
 /*----------------------
- 	Values Section
+	Values Section
 ----------------------*/
 
 .values{
@@ -449,23 +435,22 @@ Photos
 }
 
 .values .grid li i{
-    font-size: 50px;
-    color: #5999e4;
-    margin-bottom: 25px;
+	font-size: 50px;
+	color: #5999e4;
+	margin-bottom: 25px;
 }
 
 .values .grid li h4{
 	color: #555;
-    font-size: 20px;
-    margin-bottom: 25px;
+	font-size: 20px;
+	margin-bottom: 25px;
 }
 
 .values .grid li p{
-    margin: 0;
+	margin: 0;
 }
 
 @media (max-width: 1000px){
-
 	.values .grid li{
 		flex-basis: 70%;
 		margin-bottom: 65px;
@@ -474,20 +459,17 @@ Photos
 	.values.grid li:last-child{
 		margin-bottom: 0;
 	}
-
 }
-
 
 @media (max-width: 600px){
 
 	.values .grid li{
 		flex-basis: 100%;
 	}
-
 }
 
 /*--------------------
- 	Reviews
+	Reviews
 --------------------*/
 
 .reviews{
@@ -496,83 +478,38 @@ Photos
 
 .reviews .quote{
 	text-align: center;
-    font-size: 18px;
-    font-weight: 300;
-    line-height: 1.5;
-    margin-bottom: 20px;
-    padding: 0;
-    margin-left: auto;
-    margin-right: auto;
-
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 1.5;
+	margin-bottom: 20px;
+	padding: 0;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .reviews .author{
-    font-size: 18px;
-    margin-bottom: 50px;
-    margin-left: auto;
-    margin-right: auto;
-
+	font-size: 18px;
+	margin-bottom: 50px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .reviews .author:last-child{
-    margin-bottom: 0;
+	margin-bottom: 0;
 }
 
 @media (max-width: 1000px){
-
 	.reviews .quote{
 		font-size: 16px;
 	}
 
 	.reviews .author{
-	    font-size: 16px;
+		font-size: 16px;
 	}
-
 }
-
-/*---------------------
- 	Contact 
----------------------*/
-
-.contact{
-	background-color: #f7f7f7;
-}
-
-.contact form{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-wrap: wrap;
-
-	max-width: 800px;
-	width: 80%;
-}
-
-.contact form input{
-	padding: 15px;
-	flex: 1;
-	margin-right: 30px;
-	font-size: 18px;
-	color: #555;
-}
-
-.contact form .btn{
-	padding: 18px 42px;
-}
-
-
-@media (max-width: 800px){
-
-	.contact form input{
-		flex-basis: 100%;
-		margin: 0 0 20px 0;
-	}
-
-}
-
 
 /*-------------
- 	Footer
+	Footer
 -------------*/
 
 footer{
@@ -624,9 +561,9 @@ footer p a{
 	}
 
 }
-/*----
+/*---------
 SLIDES
------*/
+----------*/
 body{
 	font-family:'Open sans', sans-serif;
 	background-color:#111111;
@@ -711,3 +648,4 @@ body{
 .left-arrow:hover, .right-arrow:hover {
 	color:#EEEEEE;
 }
+/*Hover is from in class exercise*/
