@@ -168,7 +168,7 @@ header h2{
 	display: flex;
 	color:#f4e21a;
 	font-size:22px;
-	background-color: #f7f7f7;
+	background-color: #414a4f;
 	padding: 21px 7px;
 	position:fixed;
 	top:0px;
@@ -185,11 +185,11 @@ header h2{
 }
 
 .nav li:first-child{
-	margin-left: 0;	
+	margin-left: auto;	
 }
 
 .nav li:last-child{
-	margin-right: 0;	
+	margin-right: 10px;	
 }
 
 
@@ -212,9 +212,10 @@ header h2{
 }
 
 @media(max-width:500px){
-	.nav{
-		margin-left:0px;
+	.nav li:first-child {
+    	margin-left: 7%; 
 	}
+
 }
 /*-----
 Photos
@@ -311,7 +312,7 @@ Photos
 }
 
 #home{
-	padding: 71px 100px;
+	padding: 64px 100px;
 }
 
 #title:hover{
