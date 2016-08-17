@@ -1,7 +1,4 @@
-
-
 function tagLine(){
-
     var tag = document.getElementById('title');
 
     if(tag.classList.contains('beenClicked') == false){
@@ -15,7 +12,7 @@ var slideIndex = 1;
 showSlide(slideIndex);
 
 function switchSlide(n) {
-  showSlide(slideIndex += n);
+    showSlide(slideIndex += n);
 }
 
 function currentSlide(n) {
@@ -36,12 +33,12 @@ function showSlide(n) {
     };
 
     for (i = 0; i < slidesArray.length; i++) {
-       slidesArray[i].className = slidesArray[i].className.replace(" fadeImage", "");
-    }
+     slidesArray[i].className = slidesArray[i].className.replace(" fadeImage", "");
+ }
 
-    for (i = 0; i < dotsArray.length; i++) {
-       dotsArray[i].className = dotsArray[i].className.replace(" dot-filled", "");
-    }
+ for (i = 0; i < dotsArray.length; i++) {
+     dotsArray[i].className = dotsArray[i].className.replace(" dot-filled", "");
+ }
     slidesArray[slideIndex-1].className += " fadeImage";
     dotsArray[slideIndex-1].className += " dot-filled";
 }
@@ -49,3 +46,5 @@ function showSlide(n) {
 window.setInterval(function(){
     switchSlide(1)
 }, 8000);
+
+// Slider is from an in class exercise 
