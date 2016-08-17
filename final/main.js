@@ -8,6 +8,8 @@ function tagLine(){
     tag.className += ' beenClicked';
 };
 
+//stackoverflow.com/questions/195951/change-an-elements-class-with-javascript
+
 var slideIndex = 1;
 showSlide(slideIndex);
 
