@@ -401,8 +401,14 @@ Photos
 	flex-basis: 60%;
 }
 
+#product1{
+	margin-top:65px;
+	margin-bottom:65px;
+}
+
 #product2{
 	background-color: rgba(247, 247, 247, 0.65);
+	padding-top:20px;
 }
 
 @media (max-width: 1000px){
