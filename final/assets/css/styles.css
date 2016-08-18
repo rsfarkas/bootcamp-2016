@@ -63,7 +63,7 @@ section{
 }
 
 p{
-	font-size:18px;
+	font-size:21px;
 }
 
 @media (max-width: 1000px){
@@ -373,7 +373,7 @@ Photos
 	background-color: #f7f7f7;
 }
 .about p{
-	font-size:18px;
+	font-size:21px;
 }
 
 /*--------------------
@@ -416,6 +416,7 @@ Photos
 @media(max-width:500px){
 	.features .grid li{
 		padding:0px;
+		height:auto;
 	}
 }
 
