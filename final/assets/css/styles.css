@@ -401,6 +401,9 @@ Photos
 	flex-basis: 60%;
 }
 
+#product2{
+	background-color: rgba(247, 247, 247, 0.65);
+}
 
 @media (max-width: 1000px){
 
@@ -410,8 +413,10 @@ Photos
 	}
 }
 
-#product2{
-	background-color: rgba(247, 247, 247, 0.65);
+@media(max-width:500px){
+	.features .grid li{
+		padding:0px;
+	}
 }
 
 /*----------------------
