@@ -205,12 +205,6 @@ header h2{
 	}
 }
 
-@media(max-width:500px){
-	.nav li:first-child {
-		margin-left: 7%; 
-	}
-}
-
 /*-----
 Photos
 ---------------*/
