@@ -219,11 +219,6 @@ Photos
 	}
 }
 
-@media(max-width:550px)and (min-width:425px){
-	#iphone, #bracelet{
-		margin-left:18%;
-	}
-}
 /*----------------
 	Hero Section
 ------------------*/
@@ -254,6 +249,7 @@ Photos
 	background-color: white;
 	z-index: 2;
 }
+
 
 .hero h1{
 	font: bold 60px 'Dosis', sans-serif;
@@ -289,6 +285,16 @@ Photos
 	.hero a.btn{
 		padding: 15px 40px;
 	}
+}
+
+@media(max-width: 600px){
+	.background-video{
+		display:none;
+	}
+	#home{
+		background-color:#5999E4;
+	}
+	
 }
 
 #nonein4{

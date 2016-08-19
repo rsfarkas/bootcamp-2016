@@ -30,7 +30,7 @@ void setup() {
   println(table.getRowCount() + " total rows in table"); 
   
   //iterates through the table. first the lat and long are stored in local variables.
- // then, crime field is parsed and seperates rapes from robberies and adds them to their r
+ // then, crime field is parsed and seperates rapes from robberies and adds them to their
  //respective arrays. each incident becames a Location.
   for (TableRow row : table.rows ()) {
     float lat = row.getFloat("lat");
@@ -108,7 +108,7 @@ void draw() {
 //https://data.cityofnewyork.us/Public-Safety/NYPD-7-Major-Felony-Incidents/hyij-8hr7
 
 
-//how to read data from file
+//how to read data from    
 //https://processing.org/reference/loadTable_.html
 
 //How to use unfolding maps 
